@@ -4,50 +4,28 @@
 
   &-container {
     text-align: center;
-    // display: flex;
-    // align-items: baseline;
-    // justify-content: space-between;
-    // width: 1200px;
-    // margin: 0 auto;
-    // padding: 0 15px;
 
     @media screen and (min-width: 768px) {
       display: flex;
       align-items: baseline;
       flex-wrap: wrap;
-      justify-content: space-around;
+      justify-content: center;
     }
 
     @media screen and (min-width: 1200px) {
-      // display: flex;
-      // align-items: baseline;
-      // flex-wrap: nowrap;
-      // // justify-content: space-between;
-      // width: 1200px;
-      // margin: 0 auto;
-      // padding: 0 15px;
+      text-align: left;
       display: flex;
       align-items: baseline;
       justify-content: space-between;
-      width: 1200px;
-      margin: 0 auto;
-      padding: 0 15px;
     }
   }
 }
 
 .footer__adress__container {
-  // display: flex;
   margin-bottom: 60px;
 
-  @media screen and (min-width: 768px) {
-    padding-left: 76px;
-  }
-
   @media screen and (min-width: 1200px) {
-    padding-left: 0;
     margin-bottom: 0;
-    // display: flex;
   }
 }
 
@@ -63,7 +41,6 @@
 }
 
 .footer-contact__items:not(:last-child) {
-  // margin-bottom: 9px;
   margin-bottom: 8px;
 
   @media screen and (min-width: 1200px) {
@@ -99,22 +76,18 @@
 
 .footer-icon__container {
   margin-bottom: 60px;
-  // margin-left: 75px;
 
   @media screen and (min-width: 768px) {
     margin-left: 165px;
-    padding-right: 89px;
   }
 
   @media screen and (min-width: 1200px) {
     margin-left: 75px;
-    padding-right: 0;
+    margin-bottom: 0;
   }
 }
 
 .footer-soc__text {
-  // align-items: center;
-  // justify-content: center;
   font-family: 'Roboto';
   font-weight: 700;
   font-size: 14px;
@@ -172,7 +145,7 @@
 
 .subscribe-form {
   text-align: center;
-  display: inline-block;
+  display: block;
 
   @media screen and (max-width: 479px) {
     width: 100%;
@@ -191,13 +164,13 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  padding: 0 15px;
 
   @media screen and (max-width: 479px) {
     width: 100%;
   }
   @media screen and (min-width: 1200px) {
-    align-items: baseline;
+    // align-items: baseline;
+    text-align: left;
     padding: 0;
   }
 
